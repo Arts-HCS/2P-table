@@ -211,15 +211,5 @@ for (let option of options){
         for (let groupElement of groupElements){
             groupElement.classList.toggle('selected');
         }
-        })
-    }
-
-
-let textarea = document.getElementById('textarea');
-
-textarea.value = localStorage.getItem('text') || ""
-
-textarea.addEventListener('input', ()=>{
-    let userText = textarea.value;
-    localStorage.setItem('text', userText);
-})
+    })
+}
