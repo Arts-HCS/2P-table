@@ -1,5 +1,4 @@
 const elementsArray = [
-    // Grupo 4
     {
         elementId: 1,
         an: 22,
@@ -34,7 +33,7 @@ const elementsArray = [
         name: "Rutherfordio",
         am: 267,
         electrons: [2, 8, 18, 32, 32, 10, 2],
-        en: null
+        en: 0
     },
 
     // Grupo 5
@@ -72,7 +71,7 @@ const elementsArray = [
         name: "Dubnio",
         am: 270,
         electrons: [2, 8, 18, 32, 32, 11, 2],
-        en: null
+        en: 0
     },
 
     // Grupo 6
@@ -110,7 +109,7 @@ const elementsArray = [
         name: "Seaborgio",
         am: 271,
         electrons: [2, 8, 18, 32, 32, 12, 2],
-        en: null
+        en: 0
     },
 
     // Grupo 7
@@ -148,13 +147,12 @@ const elementsArray = [
         name: "Bohrio",
         am: 270,
         electrons: [2, 8, 18, 32, 32, 13, 2],
-        en: null
+        en: 0
     }
 ];
 
 
 let elementCard = document.getElementById('elementCard');
-
 
 elementsArray.forEach((element) =>{
     let elementObject = document.getElementById(`${element.elementId}`);
